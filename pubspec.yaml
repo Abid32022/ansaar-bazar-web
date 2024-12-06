@@ -1,0 +1,89 @@
+name: ansarbazzarweb
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  get: ^4.6.1
+  shared_preferences: ^2.0.11
+  connectivity: ^3.0.6
+  #  firebase_core: ^1.2.1
+  flutter_local_notifications: ^9.1.5
+  path_provider: ^2.0.9
+  url_strategy: ^0.2.0
+  pin_code_fields: ^7.3.0
+  mailer: ^5.0.2
+  geolocator: ^8.0.1
+  google_maps_flutter: ^2.1.2
+  google_maps_flutter_web: ^0.3.2+1
+  flutter_typeahead: ^3.2.4
+  carousel_slider: ^4.0.0
+  shimmer_animation: ^2.1.0+1
+  image_picker: ^0.8.4+4
+  universal_ui: ^0.0.8
+  webview_flutter: ^3.0.0
+  flutter_widget_from_html_core: ^0.8.4
+  url_launcher: ^6.0.17
+  http: ^0.13.4
+  pointer_interceptor: ^0.9.0+1
+  phone_number: ^0.12.0+1
+  country_code_picker: ^2.0.2
+  cached_network_image: ^3.2.0
+  flutter_toggle_tab: ^1.1.7
+  change_app_package_name: ^1.1.0
+
+  flutter_svg:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+dependency_overrides:
+  #  firebase_messaging: 11.2.8
+  #  firebase_core_platform_interface: 4.5.1
+  modal_bottom_sheet: ^3.0.0-pre
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image/
+    - assets/language/
+    - assets/gpay.json
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/font/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/font/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/font/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/font/Roboto-Black.ttf
+          weight: 900
